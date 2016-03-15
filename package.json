@@ -1,0 +1,21 @@
+{
+  "author": "mmn100",
+  "contributors": [],
+  "dependencies": [
+    "addon-kit",
+    "api-utils"
+  ],
+  "description": "Improve page titles for MXR",
+  "fullName": "Better MXR",
+  "homepage": "",
+  "id": "jid0-ePBKtqqSeez8ThB1NInNoY7B0xc@jetpack",
+  "license": "",
+  "name": "better-mxr",
+  "permissions": {
+    "multiprocess": true,
+    "private-browsing": true
+  },
+  "title": "Better MXR",
+  "url": "",
+  "version": "0.2.2"
+}
