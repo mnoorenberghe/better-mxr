@@ -6,6 +6,10 @@
     "api-utils"
   ],
   "description": "Improve page titles for MXR",
+  "engines": {
+    "fennec": ">=38.0a1",
+    "firefox": ">=38.0a1"
+  },
   "fullName": "Better MXR",
   "homepage": "https://github.com/mnoorenberghe/better-mxr",
   "id": "jid0-ePBKtqqSeez8ThB1NInNoY7B0xc@jetpack",
