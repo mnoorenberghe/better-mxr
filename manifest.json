@@ -5,20 +5,8 @@
     }
   },
   "background": {
-    "scripts": ["data/redirect-to-dxr.js"]
+    "scripts": ["redirect-to-dxr.js"]
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "https://mxr.mozilla.org/*/source/*",
-        "https://mxr.mozilla.org/*/search*",
-        "https://mxr.mozilla.org/*/ident*",
-        "https://mxr.mozilla.org/*/find*"
-      ],
-      "js": ["data/contentScript.js"],
-      "run_at": "document_end"
-    }
-  ],
   "description": "Redirect MXR to DXR",
   "icons": {
     "64": "icon64.png"
