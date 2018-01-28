@@ -59,7 +59,7 @@ function redirect(requestDetails) {
   }
 
   let redirectQuery = query.toString();
-  let redirectUrl = new URL(`https://dxr.mozilla.org/${repo}/` + paths.join("/") + (redirectQuery ? "?" + redirectQuery : "") + hash);
+  let redirectUrl = new URL(`https://dxr.mozilla.org/${repo}/` + paths.join("/") + (redirectQuery ? "?" + redirectQuery : "") + hash).toString();
   return {
     redirectUrl,
   };
